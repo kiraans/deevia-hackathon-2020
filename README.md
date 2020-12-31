@@ -13,9 +13,10 @@ As we know that, Object detection is a technique of training computers to detect
 ![](https://1.bp.blogspot.com/-MQO5qKuTT8c/XpdE8_IwpsI/AAAAAAAAFtg/mSjhF2ws5FYxwcHN6h9_l5DqYzQlNYJwwCLcBGAsYHQ/s1600/image1.png)
 
 It is an advanced version of EfficientNet, which was the state of art object detection model in early 2019, EfficientNet was a baseline network created by Automl MNAS, it achieved state-of-the-art 84.4% more accuracy and used a highly effective compound coefficient to scale up CNNs in a more structured manner.
-The comparision of different state-of-the-art models is as shown in the image below: ![https://blog.roboflow.com/training-efficientdet-object-detection-model-with-a-custom-dataset/](https://github.com/kiraans/deevia-hackathon-2020/blob/main/model/efficientdet-performance.png)
+The comparision of different state-of-the-art models is as shown in the image below:
+![https://blog.roboflow.com/training-efficientdet-object-detection-model-with-a-custom-dataset/](https://github.com/kiraans/deevia-hackathon-2020/blob/main/model/efficientdet-performance.png)
 
-We re-annotated the existing [Fire dataset](https://github.com/OlafenwaMoses/FireNET/releases/download/v1.0/fire-dataset.zip) to Fire and Smoke dataset using [LabelImg](https://github.com/tzutalin/labelImg). We used 320 samples for training and 30 samples for validation. 
+**Regarding the Data-set:** We re-annotated the existing [Fire dataset](https://github.com/OlafenwaMoses/FireNET/releases/download/v1.0/fire-dataset.zip) to Fire and Smoke dataset using [LabelImg](https://github.com/tzutalin/labelImg). We used 320 samples for training and 30 samples for validation. 
 We achieved a loss of ***0.14*** after training for approximately 5000 steps. The training was done on Google Colaboratory.
 
 **Results:**
