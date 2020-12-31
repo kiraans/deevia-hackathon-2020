@@ -8,7 +8,8 @@ This is a official repository for the Deevia Hackathon Project.
 The problem statement of the hackathon was to develop an android application to detect fire and smoke in real time scenario.
 
 **Our Approach:** We used the Tensorflow Object Detection API to train the existing model (Transfer Learning) i.e., [EfficientDet model](http://download.tensorflow.org/models/object_detection/tf2/20200711/efficientdet_d0_coco17_tpu-32.tar.gz).
-The comparision of different state-pf-the-art models is as shown in the image below: ![](https://github.com/kiraans/deevia-hackathon-2020/blob/main/model/efficientdet-performance.png=250x250)
+The comparision of different state-of-the-art models is as shown in the image below: ![](https://github.com/kiraans/deevia-hackathon-2020/blob/main/model/efficientdet-performance.png)
+
 We re-annotated the existing [Fire dataset](https://github.com/OlafenwaMoses/FireNET/releases/download/v1.0/fire-dataset.zip) to Fire and Smoke dataset using [LabelImg](https://github.com/tzutalin/labelImg). We used 320 samples for training and 30 samples for validation. 
 We achieved a loss of ***0.14*** after training for approximately 5000 steps. The training was done on Google Colaboratory.
 
