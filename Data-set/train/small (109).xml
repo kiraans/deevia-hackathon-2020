@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>small (109).jpg</filename>
+	<path>C:/Users/Karthik/Documents/Deevia Hackathon/fire-dataset/fire-dataset/train/images/small (109).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>183</width>
+		<height>275</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>74</xmin>
+			<ymin>71</ymin>
+			<xmax>88</xmax>
+			<ymax>85</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>116</xmin>
+			<ymin>84</ymin>
+			<xmax>130</xmax>
+			<ymax>95</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>smoke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>69</xmin>
+			<ymin>17</ymin>
+			<xmax>92</xmax>
+			<ymax>62</ymax>
+		</bndbox>
+	</object>
+</annotation>
