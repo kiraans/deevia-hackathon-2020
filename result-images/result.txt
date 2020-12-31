@@ -1,1 +1,0 @@
-The results are obtained by training a pre-trained model (Transfer Learning) ssd_efficientdet_d0_512x512_coco17, using Tensorflow Object Detection API.
