@@ -1,0 +1,1 @@
+The data-set contains images of fire and smoke and their respective annotations in XML format (PASCAL VOC). This folder contains fire-smoke train and validation images and .xml files.
