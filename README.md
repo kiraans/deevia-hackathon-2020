@@ -21,7 +21,7 @@ We achieved a loss of ***0.14*** after training for approximately 5000 steps. Th
 
 **Steps to Run the code:**
 1. Clone the github repository.
-2. Download the weights and move them to training folder and edit the path in .config file.
+2. Download the [weights](http://download.tensorflow.org/models/object_detection/tf2/20200711/efficientdet_d0_coco17_tpu-32.tar.gz) and move them to training folder and edit the paths in .config file. (This step is required only for training)
 3. Run the ipynb file either in local system or Colab. Install the dependencies as stated in the notebook.
 4. For testing the model, run the Testing portion of the notebook.
 
