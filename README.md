@@ -19,6 +19,10 @@ The comparision of different state-of-the-art models is as shown in the image be
 **Regarding the Data-set:** We re-annotated the existing [Fire dataset](https://github.com/OlafenwaMoses/FireNET/releases/download/v1.0/fire-dataset.zip) to Fire and Smoke dataset using [LabelImg](https://github.com/tzutalin/labelImg). We used 320 samples for training and 30 samples for validation. 
 We achieved a loss of ***0.14*** after training for approximately 5000 steps. The training was done on Google Colaboratory.
 
+**Steps to Run the code:**
+1.Clone the github repository
+2.Run the ipynb file either in local system or colab
+
 **Results:**
 Following are a few results from the model.
 
