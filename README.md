@@ -20,8 +20,10 @@ The comparision of different state-of-the-art models is as shown in the image be
 We achieved a loss of ***0.14*** after training for approximately 5000 steps. The training was done on Google Colaboratory.
 
 **Steps to Run the code:**
-1.Clone the github repository
-2.Run the ipynb file either in local system or colab
+1. Clone the github repository.
+2. Download the weights and move them to training folder and edit the path in .config file.
+3. Run the ipynb file either in local system or Colab. Install the dependencies as stated in the notebook.
+4. For testing the model, run the Testing portion of the notebook.
 
 **Results:**
 Following are a few results from the model.
